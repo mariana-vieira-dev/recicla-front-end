@@ -1,4 +1,4 @@
-class TiuloDinamico extends HTMLElement {
+class TituloDinamico extends HTMLElement {
     constructor() {
         super();
 
@@ -6,7 +6,7 @@ class TiuloDinamico extends HTMLElement {
 
         //base do component
         const componentRoot = document.createElement("h1");
-        componentRoot.textContent = "Minha notícia";
+        componentRoot.textContent = this.getAttribute("titulo");
 
         //estilização do component
         const style = document.createElement("style");
@@ -22,4 +22,4 @@ class TiuloDinamico extends HTMLElement {
     }
 }
 
-customElements.define("titulo-dinamico", TiuloDinamico);
+customElements.define("titulo-dinamico", TituloDinamico);
