@@ -1,2 +1,2 @@
 # recicla-front-end
-Reciclagem Front-End com HTM, CSS, Javascript e Angular
+Reciclagem Front-End:Criando componente com HTM, CSS, Javascrip.
